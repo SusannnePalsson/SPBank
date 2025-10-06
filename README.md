@@ -63,7 +63,7 @@ SPBank/
    SELECT count(*) FROM bank.flagged_transactions;
    ```
 
-## Vad händer under körningen?
+## Vad körs?
 - `init_schema.py` säkerställer schema **bank** + alla tabeller (SQLAlchemy modeller i `models.py`).  
 - `validation.py` bygger cleanade CSV i `data/clean/`.  
 - `import_*.py` laddar in data med `ON CONFLICT DO NOTHING` och loggar:
