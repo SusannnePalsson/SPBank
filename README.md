@@ -1,5 +1,5 @@
 
-# TheBankProject 🏦
+# SPBank
 
 Ett komplett, fungerande ETL-projekt (CSV → validering → Postgres) med Prefect-orkestrering och DB-hantering i lokal PostgreSQL databas bank via pgAdmin med schemat **bank**.
 

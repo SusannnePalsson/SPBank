@@ -2,7 +2,7 @@ Param(
     [switch]$WithDocker
 )
 
-Write-Host "=== TheBankProject setup ===" -ForegroundColor Cyan
+Write-Host "=== SPBank setup ===" -ForegroundColor Cyan
 
 # 1) Create venv
 if (-not (Test-Path ".\.venv\Scripts\python.exe")) {

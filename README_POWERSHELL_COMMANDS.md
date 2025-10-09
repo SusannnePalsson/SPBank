@@ -1,4 +1,4 @@
-# README – PowerShell-kommandon för TheBankProject
+# README – PowerShell-kommandon för SPBank
 
 Liten guid med **bra att ha-kommandon** i PowerShell för att köra SPBank, validera/flagga transaktioner, importera data till DB och köra tester.
 

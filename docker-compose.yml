@@ -2,7 +2,7 @@
 services:
   db:
     image: postgres:16
-    container_name: thebank_pg
+    container_name: spbank_pg
     environment:
       POSTGRES_USER: bankuser
       POSTGRES_PASSWORD: bankpass
@@ -19,7 +19,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4:8
-    container_name: thebank_pgadmin
+    container_name: spbank_pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@example.com
       PGADMIN_DEFAULT_PASSWORD: admin

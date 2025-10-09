@@ -12,8 +12,8 @@ scripts\run_all.ps1             # kör hela ETL
 
 ## Alternativ 2 – PyCharm Run Configurations
 1. Stäng PyCharm om projektet redan är öppet.
-2. Kopiera mappen `.idea/runConfigurations/` från den här zippen till **TheBankProject**-roten i ditt repo/projekt.
-   - Slutlig sökväg: `TheBankProject/.idea/runConfigurations/*.xml`
+2. Kopiera mappen `.idea/runConfigurations/` från den här zippen till **SPBank**-roten i ditt repo/projekt.
+   - Slutlig sökväg: `SPBank/.idea/runConfigurations/*.xml`
 3. Öppna projektet i PyCharm igen → alla run-configs dyker upp i droplistan:
    - **ETL – Full Pipeline** → `flow_main.py`
    - **ETL – Validation only** → `validation.py`

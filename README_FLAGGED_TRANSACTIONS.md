@@ -1,5 +1,5 @@
-# Förklaring av valideringar som skapar flaggade transaktioner
-
+# valideringar som skapar flaggade transaktioner
+ 
 ### 1) `Structuring band 9500–9999.99 SEK, High velocity ≥ 20 tx/24h`
 
 **Förklaring:**
